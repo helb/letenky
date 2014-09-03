@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="cs"><head>
+  <meta charset="utf-8">
+  <title>letenky</title>
+  <meta name="author" content="Jiří Helebrant">
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<script>
+</script>
+<header><h1>Akční letenky z Prahy</h1></header>
