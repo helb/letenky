@@ -6,8 +6,55 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <link href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" />
+  <link href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+  html *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #fff;
+    color: #444;
+  }
+
+  a, a:link{
+    color: #322030;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #725B75;
+  }
+
+  section{
+    max-width: 40rem;
+  }
+
+  th{
+    text-align: left;
+  }
+
+  header{
+    border-bottom: 2px solid #725B75;
+    background-color: #322030;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem 0 1rem 0.5rem;
+  }
+
+  header a{
+    color: #fff;
+  }
+  </style>
 </head>
 <body>
-<header><h1>Akční letenky z Prahy</h1></header>
-<table>
+<header><h1><a href="http://www.akcniletenky.com">Akční letenky</a> z Prahy</h1></header>
+<section>
+<table class="stripe">
+<thead>
+<th>Cesta</th>
+<th>Cena</th>
+</thead>

@@ -1,7 +1,27 @@
-  </table>
+  </p>
+  </section>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://sunnywalker.github.io/jQuery.FilterTable/jquery.filtertable.min.js"></script>
+  <script src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
   <script>
-
+    $(document).ready(function(){
+        $('table').dataTable({
+          "language": {
+            "lengthMenu": "Zobrazit _MENU_ letenek na stránku",
+            "zeroRecords": "Žádná data",
+            "infoEmpty": "Žádná data",
+            "infoFiltered": "(filtrováno z _MAX_ letenek)",
+            "sSearch":       "Hledat:",
+            "sInfo":         "Zobrazeno _START_ až _END_ z celkem _TOTAL_ záznamů",
+            "oPaginate": {
+              "sFirst":    "První",
+              "sPrevious": "Předchozí",
+              "sNext":     "Další",
+              "sLast":     "Poslední"
+            }
+        },
+        paging: false,
+        order: [[ 1, "asc" ]]
+        });
+    });
   </script>
 </body></html>
