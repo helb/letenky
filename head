@@ -6,6 +6,7 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <link href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <header><h1>Akční letenky z Prahy</h1></header>
