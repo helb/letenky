@@ -1,5 +1,5 @@
 #Letenky
-Displays discount flight tickets from Prague in sortable and filterable table. Tickets are fetched from akcniletenky.com.
+Displays discount flight tickets from Prague in sortable and filterable table. Tickets are fetched from [akcniletenky.com](http://www.akcniletenky.com/).
 
 ##How it works
 Basically it's just Makefile which fetches the data, filters relevant tickets and puts together HTML page.
