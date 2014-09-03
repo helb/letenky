@@ -7,7 +7,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.css" type="text/css" rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <style>
   html *{
     margin: 0;
@@ -29,6 +29,10 @@
     color: #725B75;
   }
 
+  a:visited{
+    text-decoration: line-through;
+  }
+
   section{
     max-width: 40rem;
   }
@@ -45,7 +49,7 @@
     padding: 1rem 0 1rem 0.5rem;
   }
 
-  header a{
+  header h1 a, header h1 a:link{
     color: #fff;
   }
   </style>

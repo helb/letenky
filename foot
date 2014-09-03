@@ -1,7 +1,7 @@
   </p>
   </section>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
   <script>
     $(document).ready(function(){
         $('table').dataTable({
@@ -14,7 +14,7 @@
             "sInfo":         "Zobrazeno _START_ až _END_ z celkem _TOTAL_ letenek",
         },
         paging: false,
-        order: [[ 1, "asc" ]]
+        aaSorting: []
         });
     });
   </script>
