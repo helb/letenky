@@ -1,2 +1,2 @@
 all:
-	cat head foot > index.html
+	rm index.html; cat head foot > index.html
