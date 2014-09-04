@@ -14,7 +14,10 @@
             "sInfo":         "Zobrazeno _START_ až _END_ z celkem _TOTAL_ letenek",
         },
         paging: false,
-        aaSorting: []
+        aaSorting: [],
+        columnDefs: [
+          { "type": "num-fmt", "targets": 1 }
+        ]
         });
     });
   </script>
