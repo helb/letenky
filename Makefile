@@ -8,6 +8,6 @@ all:
 	date +"%-d.%-m.%Y %H:%M" > date
 	cat head predata data prefoot date foot > index.html
 	grep Kč letenky.rss | sed 's/title>//g; s/<\/*//g; s/^[[:space:]]*//g; s/\ Kč/<\/td>/; s/\([0-9]\)[[:space:]]\([0-9]\)/\1\2/g; s/^/<tr><td>/; s/:\ /<\/td><td>/; s/\ -\ \([0-9]\)/<\/td><td>\1/;' > data.rss
-	cat head predata.rss data.rss prefoot date foot > rss.html
+	cat head predata.rss data.rss prefoot.rss date foot > rss.html
 	sed -i 's/\ z\ Prahy//' rss.html
 	/home/helb/bin/dropbox_uploader upload ~/weby/letenky/index.html ~/weby/letenky/rss.html Public/letenky/
