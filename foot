@@ -9,7 +9,7 @@
             "lengthMenu": "Zobrazit _MENU_ letenek na stránku",
             "zeroRecords": "Žádná data",
             "infoEmpty": "Žádná data",
-            "infoFiltered": "(filtrováno z _MAX_ letenek)",
+            "infoFiltered": "(filtrováno z celkového počtu _MAX_ letenek)",
             "sSearch":       "Hledat:",
             "sInfo":         "Zobrazeno _START_ až _END_ z celkem _TOTAL_ letenek",
         },
